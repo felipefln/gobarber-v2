@@ -9,6 +9,9 @@ Backend da aplicação GoBarber Versão 2, criada em NodeJS com Typescript, Expr
 
 - NodeJS
 - Express
+- Docker - docker-compose
+- Postgres
+- TypeORM
 - \* [check package.json](/package.json)
 
 **Example run Backend:**
