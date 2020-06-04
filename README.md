@@ -13,7 +13,7 @@ Backend da aplicação GoBarber Versão 2, criada em NodeJS com Typescript, Expr
 
 **Example run Backend:**
 
-1. Clone your repository `git clone git@github.com:felipefln/`
+1. Clone your repository `git clone git@github.com:felipefln/gobarber-v2.git`
 
 ## More info
 
