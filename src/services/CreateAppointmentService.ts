@@ -29,7 +29,7 @@ class CreateAppointmentService {
     });
 
     await appointmentsRepository.save(appointment);
-
+    console.log(appointment);
     return appointment;
   }
 }
