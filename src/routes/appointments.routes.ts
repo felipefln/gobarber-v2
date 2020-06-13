@@ -10,11 +10,9 @@ const appointmentsRouter = Router();
 
 appointmentsRouter.use(ensureAuthenticated);
 
-appointmentsRouter.get("/", (request, response) => {
+appointmentsRouter.get("/", async (request, response) => {
   const appointmentsRepository = getCustomRepository(AppointmentsRepository);
-  console.log(appointmentsRepository);
-  const appointments = appointmentsRepository.find();
-  console.log(appointments);
+  const appointments = await appointmentsRepository.find();
   return response.json(appointments);
 });
 
