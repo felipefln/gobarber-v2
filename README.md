@@ -13,6 +13,7 @@ Backend da aplicação GoBarber Versão 2, criada em NodeJS com Typescript, Expr
 - Postgres
 - TypeORM
 - JWT(Json Web Token)
+- Multer (Upload de IMG)
 - \* [check package.json](/package.json)
 
 **Example run Backend:**
