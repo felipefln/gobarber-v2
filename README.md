@@ -14,11 +14,15 @@ Backend da aplicação GoBarber Versão 2, criada em NodeJS com Typescript, Expr
 - TypeORM
 - JWT(Json Web Token)
 - Multer (Upload de IMG)
+- Files Static
 - \* [check package.json](/package.json)
 
 **Example run Backend:**
 
-1. Clone your repository `git clone git@github.com:felipefln/gobarber-v2.git`
+1. Clone esse repositorio => `git clone git@github.com:felipefln/gobarber-v2.git`
+2. Acesse a pasta com o comando => `cd gobarber-v2`
+3. Instale o pacote de dependencias do projeto => `yarn`
+4. Execute o server localmente => `yarn dev:server`
 
 ## More info
 
